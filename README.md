@@ -2,8 +2,7 @@
 
 Diese Erweiterung für Chrome wandelt Hasskommentar auf Facebook Unfug um.
 
-Beispiel:
-
+Beispiele:
 Bei Adolf war alles besser.
 Bei _Kevin_ war alles besser.
 
@@ -12,3 +11,5 @@ Wir sind nicht das _IKEA_ der Welt.
 
 Asylbewerber sollte man alle vergasen.
 _Justin Bieber Fans_ sollte man alle _zum Kuchen einladen_.
+
+Durchgestrichene Wörter wurden dahinter ersetzt. ;-)
