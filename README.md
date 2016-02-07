@@ -1,15 +1,13 @@
-# Hasskommentar-Konverter
+Diese Erweiterung für Chrome wandelt Hasskommentar auf Facebook in lustigere Sätze um.
 
-Diese Erweiterung für Chrome wandelt Hasskommentar auf Facebook Unfug um.
+###Beispiele:
 
-Beispiele:
-Bei Adolf war alles besser.
-Bei _Kevin_ war alles besser.
+* Bei Adolf war alles besser. -> Bei Kevin war alles besser.
 
-Wir sind nicht das Sozialamt der Welt.
-Wir sind nicht das _IKEA_ der Welt.
+* Wir sind nicht das Sozialamt der Welt. -> Wir sind nicht das IKEA der Welt.
 
-Asylbewerber sollte man alle vergasen.
-_Justin Bieber Fans_ sollte man alle _zum Kuchen einladen_.
+* Asylbewerber sollte man alle vergasen. -> Justin Bieber Fans sollte man alle zum Kuchen einladen.
 
-Durchgestrichene Wörter wurden dahinter ersetzt. ;-)
+Die durchgestrichene Wörter wurden ersetzt, sodass keine Missverständnisse auftauchen. ;-)
+
+Das war ein schnelles Sonntagnachmittagfunprojekt. Bitte nicht hauen. ;-)
