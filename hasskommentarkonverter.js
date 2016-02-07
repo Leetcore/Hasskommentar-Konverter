@@ -17,16 +17,16 @@ var badlist = [
     {bad: "deutschen", better: ["grünen", "gelben", "mit roten Punkten"]},
     {bad: "deutsch", better: ["grün", "gelb"]},
     {bad: "abgeschafft", better: ["eingerahmt", "vergoldet"]},
-    {bad: "ruinieren", better: ["optimieren", "Fortschritt bringen"]},
+    {bad: "ruinieren", better: ["optimieren"]},
     {bad: "stehlen", better: ["ausleihen", "borgen"]},
     {bad: "Eroberungsfeldzuges", better: ["Kaffeekränzchen", "Hobby-Treffen"]},
     {bad: "NPD", better: ["Nazi"]},
-    {bad: "Schmarotzer", better: ["Muttersöhnchen", "Langweiler", "Nervensägen"]},
+    {bad: "Schmarotzer", better: ["Muttersöhnchen", "Nervensägen"]},
     {bad: "Asylanten", better: ["Opfer", "Gäste"]},
-    {bad: "Asylkrise‬", better: ["neuer Mimimi-Grund", "Hobby-Politiker-Thema"]},
-    {bad: "Untergang", better: ["übertriebenen Scheiß", "unnötige Angst", "Panikmache"]},
+    {bad: "Asylkrise‬", better: ["neuer Mimimi-Grund", "Hobby-Politiker-Drama"]},
+    {bad: "Untergang", better: ["übertriebene Scheiß", "unnötige Angsthase", "Panikmacher"]},
     {bad: "Gutmenschen", better: ["hilfsbereite Menschen", "Nicht-Arschlöcher"]},
-    {bad: "Verbrecherregierung", better: ["Regierung", "anderen Menschen"]},
+    {bad: "Verbrecherregierung", better: ["Regierung", "anderen Menschen", "Anderen"]},
     {bad: "verteidigen", better: ["beschwatzen", "lobhudeln", "wichtig machen"]},
     {bad: "Depp", better: ["Süßer", "Eismann", "Videothek-Mitarbeiter", "Gentlemen"]},
     {bad: "Idioten", better: ["Freunde", "Verwandte"]},
@@ -61,7 +61,7 @@ function FUNGENERATOR(elements) {
 function start() {
     comments = document.querySelectorAll(".UFICommentBody span:not(.FBHKC)")
     posts = document.querySelectorAll(".userContent p:not(.FBHKC)")
-    linktext = document.querySelectorAll(".text_exposed_root p:not(.FBHKC)")
+    //linktext = document.querySelectorAll(".text_exposed_root p:not(.FBHKC)")
     FUNGENERATOR(comments)
     FUNGENERATOR(posts)
     //FUNGENERATOR(linktext)
