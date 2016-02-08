@@ -51,8 +51,10 @@ function FUNGENERATOR(elements) {
       // change the badword to something FUN FUN FUN!
       //var thebadword = badlist[x].bad
       //var thebetterword = badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))]
-      elements[0].innerHTML = elements[0].innerHTML.split(badlist[x].bad).join("<strike>" + badlist[x].bad.substring(0, badlist[x].bad.length - 3) + "...</strike> " + badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))])
-      elements[0].classList.add('FBHKC')
+      if (typeof(elements[0]) != "undefined") {
+          elements[0].innerHTML = elements[0].innerHTML.split(badlist[x].bad).join("<strike>" + badlist[x].bad.substring(0, badlist[x].bad.length - 3) + "...</strike> " + badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))])
+          elements[0].classList.add('FBHKC')
+      }
     }
   //}
 }
