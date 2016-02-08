@@ -23,7 +23,7 @@ var badlist = [
     {bad: "NPD", better: ["Nazi"]},
     {bad: "Schmarotzer", better: ["Muttersöhnchen", "Nervensägen"]},
     {bad: "Asylanten", better: ["Opfer", "Gäste"]},
-    {bad: "Asylkrise‬", better: ["neuer Mimimi-Grund", "Hobby-Politiker-Drama"]},
+    {bad: "Asylkrise", better: ["neuer Mimimi-Grund", "Hobby-Politiker-Drama"]},
     {bad: "Untergang", better: ["übertriebene Scheiß", "unnötige Angsthase", "Panikmacher"]},
     {bad: "Gutmenschen", better: ["hilfsbereite Menschen", "Nicht-Arschlöcher"]},
     {bad: "Verbrecherregierung", better: ["Regierung", "anderen Menschen", "Anderen"]},
@@ -45,17 +45,18 @@ var badlist = [
 
 function FUNGENERATOR(elements) {
   // match all comments
-  for (var i = 0; i < elements.length; i++) {
-    console.log(elements[i].innerText)
+  // for (var i = 0; i < elements.length; i++) {
+  // match first comment/post
+    //console.log(elements[i].innerText)
     // search for blackword
     for (var x = 0; x < badlist.length; x++) {
       // change the badword to something FUN FUN FUN!
       //var thebadword = badlist[x].bad
       //var thebetterword = badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))]
-      elements[i].innerHTML = elements[i].innerHTML.split(badlist[x].bad).join("<strike>" + badlist[x].bad.substring(0, badlist[x].bad.length - 3) + "...</strike> " + badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))])
-      elements[i].classList.add('FBHKC')
+      elements[0].innerHTML = elements[0].innerHTML.split(badlist[x].bad).join("<strike>" + badlist[x].bad.substring(0, badlist[x].bad.length - 3) + "...</strike> " + badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))])
+      elements[0].classList.add('FBHKC')
     }
-  }
+  //}
 }
 
 function start() {
@@ -67,4 +68,4 @@ function start() {
     //FUNGENERATOR(linktext)
 }
 
-window.setInterval(start, 1500);
+window.setInterval(start, 333);
