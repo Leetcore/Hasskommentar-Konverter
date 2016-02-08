@@ -1,6 +1,6 @@
 var badlist = [
     {bad: "Adolf", better: ["Kevin"]},
-    {bad: "Wacht endlich auf", better: ["Ich mag Verschwörungstheorien" "Ich brauche meinen Aluhut"]},
+    {bad: "Wacht endlich auf", better: ["Ich mag Verschwörungstheorien", "Ich brauche meinen Aluhut"]},
     {bad: "Asylbetrüger", better: ["Betrüger", "fremde Betrüger", "Sozialstaat-Betrüger"]},
     {bad: "Ausländer", better: ["andere Menschen", "Menschen, die wo anders wohnen"]},
     {bad: "Hitler", better: ["Kim Jong Un", "Britney Spears", "Rihanna"]},
