@@ -2,6 +2,8 @@ Diese Erweiterung f√ºr Chrome wandelt Hasskommentar auf Facebook in lustigere S√
 
 ###Beispiele:
 
+<img src="http://i.imgur.com/3k5Md8M.png"/>
+
 * Bei Adolf war alles besser. -> Bei Kevin war alles besser.
 
 * Wir sind nicht das Sozialamt der Welt. -> Wir sind nicht das IKEA der Welt.
