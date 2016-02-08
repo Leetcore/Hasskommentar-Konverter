@@ -1,5 +1,7 @@
 var badlist = [
     {bad: "Adolf", better: ["Kevin"]},
+    {bad: "Wacht endlich auf", better: ["Ich mag Verschwörungstheorien" "Ich brauche meinen Aluhut"]},
+    {bad: "Asylbetrüger", better: ["Betrüger", "fremde Betrüger", "Sozialstaat-Betrüger"]},
     {bad: "Ausländer", better: ["andere Menschen", "Menschen, die wo anders wohnen"]},
     {bad: "Hitler", better: ["Kim Jong Un", "Britney Spears", "Rihanna"]},
     {bad: "Asylbewerber", better: ["Justin Bieber Fans", "Miley Cyrus Fans", "DJ Bobo Fans"]},
@@ -16,6 +18,7 @@ var badlist = [
     {bad: "abgeschafft", better: ["eingerahmt", "vergoldet"]},
     {bad: "Eroberungsfeldzuges", better: ["Kaffeekränzchen", "Urlauber", "Kaffeefahrt"]},
     {bad: "NPD", better: ["Nazi"]},
+    {bad: "AfD", better: ["Hobby-Nazi"]},
     {bad: "Schmarotzer", better: ["sozial Schwache", "Perspektivlose"]},
     {bad: "Asylanten", better: ["Opfer", "Gäste"]},
     {bad: "Asylkrise", better: ["neuer Mimimi-Grund", "Hobby-Politiker-Drama"]},
@@ -48,8 +51,10 @@ function FUNGENERATOR(elements) {
       // change the badword to something FUN FUN FUN!
       //var thebadword = badlist[x].bad
       //var thebetterword = badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))]
-      elements[0].innerHTML = elements[0].innerHTML.split(badlist[x].bad).join("<strike>" + badlist[x].bad.substring(0, badlist[x].bad.length - 3) + "...</strike> " + badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))])
-      elements[0].classList.add('FBHKC')
+      if (typeof(elements[0]) != "undefined") {
+          elements[0].innerHTML = elements[0].innerHTML.split(badlist[x].bad).join("<strike>" + badlist[x].bad.substring(0, badlist[x].bad.length - 3) + "...</strike> " + badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))])
+          elements[0].classList.add('FBHKC')
+      }
     }
   //}
 }
