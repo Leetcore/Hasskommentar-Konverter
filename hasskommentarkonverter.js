@@ -68,4 +68,4 @@ function start() {
     //FUNGENERATOR(linktext)
 }
 
-window.setInterval(start, 333);
+window.setInterval(start, 100);
