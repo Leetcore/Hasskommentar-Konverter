@@ -36,7 +36,13 @@ var badlist = [
     {bad: "schäbig", better: ["arm"]},
     {bad: "Genossen", better: ["Sturmtruppler", "Gangster"]},
     {bad: "Hetzerei", better: ["unfreundliche Äußerungen", "Hobby-Haterei"]},
-    {bad: "anzünden", better: ["neu streichen", "besser einrichten", "einweihen", "segnen", "fördern"]}
+    {bad: "anzünden", better: ["neu streichen", "besser einrichten", "einweihen", "segnen", "fördern"]},
+    {bad: "FPÖ", better: ["Deppen vom Dienst", "Herrjö"]},
+    {bad: "Strache", better: ["Bumsti", "Zahntechniker", "Häuptling Weisszahn"]},
+    {bad: "HC", better:["Hildegard-Christine", "Han Colon", "Auweh"]}
+    {bad: "Lügenpresse", better: ["Comic", "Augenarzttest", "Lügenpresse (hm... dabei kann ich dieses lesen doch gar nich!!!!)"]},
+    {bad: "Lucke", better:["Hoden", "Spucke"]},
+    {bad: "!!!", better: ["(mami ich schreie im internetz)"]}
 ]
 // get all comments -> .UFICommentBody
 // get all posts -> .userContent
