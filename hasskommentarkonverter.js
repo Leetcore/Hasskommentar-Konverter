@@ -41,31 +41,22 @@ var badlist = [
 // get all comments -> .UFICommentBody
 // get all posts -> .userContent
 
-function FUNGENERATOR(elements) {
-  // match all comments
-  // for (var i = 0; i < elements.length; i++) {
-  // match first comment/post
-    //console.log(elements[i].innerText)
-    // search for blackword
+function FUNGENERATOR(element) {
     for (var x = 0; x < badlist.length; x++) {
-      // change the badword to something FUN FUN FUN!
-      //var thebadword = badlist[x].bad
-      //var thebetterword = badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))]
-      if (typeof(elements[0]) != "undefined") {
-          elements[0].innerHTML = elements[0].innerHTML.split(badlist[x].bad).join("<strike>" + badlist[x].bad.substring(0, badlist[x].bad.length - 3) + "...</strike> " + badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))])
-          elements[0].classList.add('FBHKC')
+      if (typeof(element) != "undefined") {
+          elements.innerHTML = elements[0].innerHTML.split(badlist[x].bad).join("<strike>" + badlist[x].bad.substring(0, badlist[x].bad.length - 3) + "...</strike> " + badlist[x].better[Math.floor(Math.random() * (badlist[x].better.length))])
+          elements.classList.add('FBHKC')
       }
     }
-  //}
 }
 
 function start() {
-    comments = document.querySelectorAll(".UFICommentBody span:not(.FBHKC)")
-    posts = document.querySelectorAll(".userContent p:not(.FBHKC)")
-    //linktext = document.querySelectorAll(".text_exposed_root p:not(.FBHKC)")
-    FUNGENERATOR(comments)
-    FUNGENERATOR(posts)
-    //FUNGENERATOR(linktext)
+    comment = document.querySelector(".UFICommentBody span:not(.FBHKC)")
+    post = document.querySelector(".userContent p:not(.FBHKC)")
+    
+    // change one post -> performance
+    FUNGENERATOR(comment)
+    FUNGENERATOR(post)
 }
 
 window.setInterval(start, 100);
