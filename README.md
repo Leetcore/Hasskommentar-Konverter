@@ -1,6 +1,6 @@
 Diese Erweiterung für Chrome wandelt Hasskommentar auf Facebook in lustigere Sätze um.
 
-###Beispiele:
+### Beispiele:
 
 <img src="http://i.imgur.com/3k5Md8M.png"/>
 
