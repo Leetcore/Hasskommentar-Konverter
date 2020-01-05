@@ -1,17 +1,18 @@
 {
   "manifest_version": 2,
-
-  "name": "Facebook Hasskommentar Konverter",
-  "description": "Wandelt Hasswörter (und mehr) in Unfug um.",
-  "version": "1.2",
+  "name": "Hasskommentar + VONG Konverter",
+  "description": "Wandelt Hasswörter in Unfug um + 1 niciger Vong-Sprache!",
+  "version": "1.5",
   "content_scripts": [
-  {
-   "matches": ["https://*.facebook.com/*", "http://*.facebook.com/*"],
-   "js": ["hasskommentarkonverter.js"],
-   "run_at": "document_end"
-  }
- ],
-  "permissions": [
-    "https://*.facebook.com/*", "http://*.facebook.com/*"
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "konvertasation.js"
+      ],
+      "run_at": "document_end"
+    }
   ]
 }
