@@ -1,4 +1,6 @@
-Diese Erweiterung für Chrome wandelt Hasskommentar auf Facebook in lustigere Sätze um.
+Hinweis: Die Erweiterung wurde aus dem Store entfernt, weil darin "Facebook" stand, was den Eindruck erwecken könnte, dass es sich um eine offzielle Erweiterung handelt.
+
+Diese Erweiterung für Chrome wandelt Hasskommentar auf Facebook in lustigere Sätze um. 
 
 ### Beispiele:
 
